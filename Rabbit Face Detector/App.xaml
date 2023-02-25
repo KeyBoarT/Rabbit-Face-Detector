@@ -1,0 +1,17 @@
+﻿<Application x:Class="Rabbit_Face_Detector.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:Rabbit_Face_Detector"
+             StartupUri="MVVM/View/MainWindow.xaml">
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="./Themes/Nord.TitleMenuButton.xaml"/>
+                <ResourceDictionary Source="./Themes/Nord.SideMenuButton.xaml"/>
+                <ResourceDictionary Source="./Themes/Nord.SideMenuToggleButton.xaml"/>
+                <ResourceDictionary Source="./Themes/Nord.SideMenuTextBox.xaml"/>
+                <ResourceDictionary Source="pack://application:,,,/BusyIndicator;component/Theme/Default.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

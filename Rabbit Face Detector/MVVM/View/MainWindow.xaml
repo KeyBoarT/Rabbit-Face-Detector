@@ -1,0 +1,147 @@
+﻿<Window x:Class="Rabbit_Face_Detector.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Rabbit_Face_Detector"
+        xmlns:busyIndicator="https://github.com/Peoky/BusyIndicator"
+        xmlns:viewmodel="clr-namespace:Rabbit_Face_Detector.MVVM.ViewModel"
+        mc:Ignorable="d"
+        Background="Transparent"
+        AllowsTransparency="True"
+        WindowStyle="None"
+        WindowStartupLocation="CenterScreen"
+        ResizeMode="CanResizeWithGrip"
+        MinHeight="450"
+        MinWidth="600">
+    <Window.DataContext>
+        <viewmodel:MainViewModel/>
+    </Window.DataContext>
+    <Border CornerRadius="5"
+            Background="#26283b">
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition Width="200"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="40"/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+
+            <Border Grid.ColumnSpan="2"
+                    Padding="2"
+                    CornerRadius="5,5,0,0">
+                <Border.InputBindings>
+                    <MouseBinding MouseAction="LeftClick"
+                                  Command="{Binding MoveWindowCommand}"/>
+                    <MouseBinding MouseAction="LeftDoubleClick"
+                                  Command="{Binding MaximizeCommand}"/>
+                </Border.InputBindings>
+                <Grid HorizontalAlignment="Stretch">
+                    <TextBlock Text="Rabbit Face Detector 1.0.0"
+                               VerticalAlignment="Center"
+                               Margin="8,0,0,0"
+                               FontFamily="Consolas"
+                               FontSize="24"
+                               FontWeight="SemiBold"
+                               Foreground="LightGray">
+                        <TextBlock.Effect>
+                            <DropShadowEffect ShadowDepth="1" Color="White" RenderingBias="Quality"/>
+                        </TextBlock.Effect>
+                    </TextBlock>
+                    <StackPanel Orientation="Horizontal"
+                                HorizontalAlignment="Right">
+                        <Button
+                            Command="{Binding MinimizeCommand}"
+                            Content="🗕"
+                            Padding="0,0,0,3"
+                            Style="{StaticResource TitleMenuButton}"/>
+                        <Button 
+                            Command="{Binding MaximizeCommand}"
+                            Content="🗖"
+                            Padding="0,0,0,2"
+                            Style="{StaticResource TitleMenuButton}"/>
+                        <Button
+                            Command="{Binding ShutDownCommand}"
+                            Content="🗙"
+                            Padding="0,0,0,2"
+                            Margin="0,0,8,0"
+                            Style="{StaticResource TitleMenuButton}"/>
+                    </StackPanel>
+                </Grid>
+            </Border>
+
+            <busyIndicator:BusyMask x:Name="BusyIndicator" IsBusy="{Binding IsLoading}" IndicatorType="Blocks" BusyContent="Lütfen Bekleyiniz..." Grid.Row="1" Foreground="LightGray" FontSize="24" FontFamily="Consolas" Background="#26283b">
+                <Border Grid.Row="1"
+                    Grid.Column="0"
+                    Background="#26283b"
+                    CornerRadius="0,15,0,5">
+                    <Border
+                    CornerRadius="0,15,0,5">
+                        <Border.Style>
+                            <Style TargetType="Border">
+                                <Setter Property="Background">
+                                    <Setter.Value>
+                                        <ImageBrush ImageSource="{Binding CurrentImage.Image, UpdateSourceTrigger=PropertyChanged}" Stretch="{Binding CurrentImage.Mode}"/>
+                                    </Setter.Value>
+                                </Setter>
+                                <Style.Triggers>
+                                    <DataTrigger Binding="{Binding IsLoading}" Value="True">
+                                        <Setter Property="Background">
+                                            <Setter.Value>
+                                                <ImageBrush ImageSource="C:\Users\mehme\source\repos\Bunny Face Detector\Bunny Face Detector\Icons\riceBowl.png"/>
+                                            </Setter.Value>
+                                        </Setter>
+                                    </DataTrigger>
+                                </Style.Triggers>
+                            </Style>
+                        </Border.Style>
+                    </Border>
+                </Border>
+            </busyIndicator:BusyMask>
+
+            <Border Grid.Row="1"
+                    Grid.Column="1"
+                    Padding="10"
+                    CornerRadius="0,0,0,5">
+                <StackPanel VerticalAlignment="Top"
+                            HorizontalAlignment="Center">
+                    <Button Content="Capture"
+                            Command="{Binding DetectFacesCommand}"
+                            Style="{StaticResource SideMenuButton}"/>
+                    <ToggleButton
+                        Margin="0,8,0,0"
+                        Command="{Binding AddPersonCommand}"
+                        Style="{StaticResource SwitchTypeToggleButton}">
+                    </ToggleButton>
+                    <Border Width="180"
+                            Height="180"
+                            Margin="0,10,0,0"
+                            CornerRadius="10"
+                            Background="#FF2F3141">
+                        <Border.Effect>
+                            <DropShadowEffect/>
+                        </Border.Effect>
+                        <Border CornerRadius="10">
+                            <Border.Background>
+                                <ImageBrush ImageSource="{Binding DetectedFace.Image}" Stretch="{Binding DetectedFace.Mode}"/>
+                            </Border.Background>
+                        </Border>
+                    </Border>
+                    <TextBox  Text="{Binding FaceName, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}"
+                              Style="{StaticResource SideMenuTextBox}"
+                              Margin="0,8,0,0"/>
+                    <Button Content="Open Camera"
+                            Command="{Binding OpenCamCommand}"
+                            Style="{StaticResource SideMenuButton}">
+                    </Button>
+                    <Button Content="Save Person"
+                            Command="{Binding SavePersonCommand}"
+                            Style="{StaticResource SideMenuButton}">
+                    </Button>
+                </StackPanel>
+            </Border>
+        </Grid>
+    </Border>
+</Window>

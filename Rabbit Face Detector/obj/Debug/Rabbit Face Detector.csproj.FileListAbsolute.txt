@@ -1,0 +1,66 @@
+C:\Users\mehme\source\repos\Rabbit Face Detector\Rabbit Face Detector\bin\Debug\Rabbit Face Detector.exe.config
+C:\Users\mehme\source\repos\Rabbit Face Detector\Rabbit Face Detector\bin\Debug\Rabbit Face Detector.exe
+C:\Users\mehme\source\repos\Rabbit Face Detector\Rabbit Face Detector\bin\Debug\Rabbit Face Detector.pdb
+C:\Users\mehme\source\repos\Rabbit Face Detector\Rabbit Face Detector\bin\Debug\Emgu.CV.UI.dll
+C:\Users\mehme\source\repos\Rabbit Face Detector\Rabbit Face Detector\bin\Debug\Emgu.CV.UI.GL.dll
+C:\Users\mehme\source\repos\Rabbit Face Detector\Rabbit Face Detector\bin\Debug\Emgu.CV.World.dll
+C:\Users\mehme\source\repos\Rabbit Face Detector\Rabbit Face Detector\bin\Debug\OpenTK.dll
+C:\Users\mehme\source\repos\Rabbit Face Detector\Rabbit Face Detector\bin\Debug\OpenTK.GLControl.dll
+C:\Users\mehme\source\repos\Rabbit Face Detector\Rabbit Face Detector\bin\Debug\ZedGraph.dll
+C:\Users\mehme\source\repos\Rabbit Face Detector\Rabbit Face Detector\bin\Debug\Emgu.CV.UI.xml
+C:\Users\mehme\source\repos\Rabbit Face Detector\Rabbit Face Detector\bin\Debug\Emgu.CV.UI.GL.xml
+C:\Users\mehme\source\repos\Rabbit Face Detector\Rabbit Face Detector\bin\Debug\Emgu.CV.World.xml
+C:\Users\mehme\source\repos\Rabbit Face Detector\Rabbit Face Detector\bin\Debug\OpenTK.xml
+C:\Users\mehme\source\repos\Rabbit Face Detector\Rabbit Face Detector\bin\Debug\OpenTK.GLControl.xml
+C:\Users\mehme\source\repos\Rabbit Face Detector\Rabbit Face Detector\bin\Debug\ZedGraph.xml
+C:\Users\mehme\source\repos\Rabbit Face Detector\Rabbit Face Detector\bin\Debug\de\ZedGraph.resources.dll
+C:\Users\mehme\source\repos\Rabbit Face Detector\Rabbit Face Detector\bin\Debug\es\ZedGraph.resources.dll
+C:\Users\mehme\source\repos\Rabbit Face Detector\Rabbit Face Detector\bin\Debug\fr\ZedGraph.resources.dll
+C:\Users\mehme\source\repos\Rabbit Face Detector\Rabbit Face Detector\bin\Debug\hu\ZedGraph.resources.dll
+C:\Users\mehme\source\repos\Rabbit Face Detector\Rabbit Face Detector\bin\Debug\it\ZedGraph.resources.dll
+C:\Users\mehme\source\repos\Rabbit Face Detector\Rabbit Face Detector\bin\Debug\ja\ZedGraph.resources.dll
+C:\Users\mehme\source\repos\Rabbit Face Detector\Rabbit Face Detector\bin\Debug\pt\ZedGraph.resources.dll
+C:\Users\mehme\source\repos\Rabbit Face Detector\Rabbit Face Detector\bin\Debug\ru\ZedGraph.resources.dll
+C:\Users\mehme\source\repos\Rabbit Face Detector\Rabbit Face Detector\bin\Debug\sk\ZedGraph.resources.dll
+C:\Users\mehme\source\repos\Rabbit Face Detector\Rabbit Face Detector\bin\Debug\sv\ZedGraph.resources.dll
+C:\Users\mehme\source\repos\Rabbit Face Detector\Rabbit Face Detector\bin\Debug\tr\ZedGraph.resources.dll
+C:\Users\mehme\source\repos\Rabbit Face Detector\Rabbit Face Detector\bin\Debug\zh-cn\ZedGraph.resources.dll
+C:\Users\mehme\source\repos\Rabbit Face Detector\Rabbit Face Detector\bin\Debug\zh-tw\ZedGraph.resources.dll
+C:\Users\mehme\source\repos\Rabbit Face Detector\Rabbit Face Detector\obj\Debug\Rabbit Face Detector.csproj.AssemblyReference.cache
+C:\Users\mehme\source\repos\Rabbit Face Detector\Rabbit Face Detector\obj\Debug\App.g.cs
+C:\Users\mehme\source\repos\Rabbit Face Detector\Rabbit Face Detector\obj\Debug\Rabbit Face Detector_MarkupCompile.cache
+C:\Users\mehme\source\repos\Rabbit Face Detector\Rabbit Face Detector\obj\Debug\Rabbit Face Detector_MarkupCompile.lref
+C:\Users\mehme\source\repos\Rabbit Face Detector\Rabbit Face Detector\obj\Debug\Rabbit Face Detector.g.resources
+C:\Users\mehme\source\repos\Rabbit Face Detector\Rabbit Face Detector\obj\Debug\Rabbit_Face_Detector.Properties.Resources.resources
+C:\Users\mehme\source\repos\Rabbit Face Detector\Rabbit Face Detector\obj\Debug\Rabbit Face Detector.csproj.GenerateResource.cache
+C:\Users\mehme\source\repos\Rabbit Face Detector\Rabbit Face Detector\obj\Debug\Rabbit Face Detector.csproj.CoreCompileInputs.cache
+C:\Users\mehme\source\repos\Rabbit Face Detector\Rabbit Face Detector\obj\Debug\Rabbit Face Detector.csproj.CopyComplete
+C:\Users\mehme\source\repos\Rabbit Face Detector\Rabbit Face Detector\obj\Debug\Rabbit Face Detector.exe
+C:\Users\mehme\source\repos\Rabbit Face Detector\Rabbit Face Detector\obj\Debug\Rabbit Face Detector.pdb
+C:\Users\mehme\source\repos\Rabbit Face Detector\Rabbit Face Detector\obj\Debug\Themes\Nord.SideMenuButton.baml
+C:\Users\mehme\source\repos\Rabbit Face Detector\Rabbit Face Detector\obj\Debug\Themes\Nord.TitleMenuButton.baml
+C:\Users\mehme\source\repos\Rabbit Face Detector\Rabbit Face Detector\obj\Debug\App.baml
+C:\Users\mehme\source\repos\Rabbit Face Detector\Rabbit Face Detector\bin\Debug\BusyIndicator.dll
+C:\Users\mehme\source\repos\Rabbit Face Detector\Rabbit Face Detector\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\mehme\source\repos\Rabbit Face Detector\Rabbit Face Detector\obj\Debug\Themes\Nord.SideMenuToggleButton.baml
+C:\Users\mehme\source\repos\Rabbit Face Detector\Rabbit Face Detector\bin\Debug\Xceed.Wpf.AvalonDock.dll
+C:\Users\mehme\source\repos\Rabbit Face Detector\Rabbit Face Detector\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+C:\Users\mehme\source\repos\Rabbit Face Detector\Rabbit Face Detector\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+C:\Users\mehme\source\repos\Rabbit Face Detector\Rabbit Face Detector\bin\Debug\Xceed.Wpf.AvalonDock.Themes.VS2010.dll
+C:\Users\mehme\source\repos\Rabbit Face Detector\Rabbit Face Detector\bin\Debug\Xceed.Wpf.Toolkit.dll
+C:\Users\mehme\source\repos\Rabbit Face Detector\Rabbit Face Detector\bin\Debug\cs-CZ\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\mehme\source\repos\Rabbit Face Detector\Rabbit Face Detector\bin\Debug\de\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\mehme\source\repos\Rabbit Face Detector\Rabbit Face Detector\bin\Debug\es\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\mehme\source\repos\Rabbit Face Detector\Rabbit Face Detector\bin\Debug\fr\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\mehme\source\repos\Rabbit Face Detector\Rabbit Face Detector\bin\Debug\hu\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\mehme\source\repos\Rabbit Face Detector\Rabbit Face Detector\bin\Debug\it\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\mehme\source\repos\Rabbit Face Detector\Rabbit Face Detector\bin\Debug\ja-JP\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\mehme\source\repos\Rabbit Face Detector\Rabbit Face Detector\bin\Debug\nl-BE\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\mehme\source\repos\Rabbit Face Detector\Rabbit Face Detector\bin\Debug\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\mehme\source\repos\Rabbit Face Detector\Rabbit Face Detector\bin\Debug\ro\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\mehme\source\repos\Rabbit Face Detector\Rabbit Face Detector\bin\Debug\ru\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\mehme\source\repos\Rabbit Face Detector\Rabbit Face Detector\bin\Debug\sv\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\mehme\source\repos\Rabbit Face Detector\Rabbit Face Detector\bin\Debug\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\mehme\source\repos\Rabbit Face Detector\Rabbit Face Detector\obj\Debug\Themes\Nord.SideMenuTextBox.baml
+C:\Users\mehme\source\repos\Rabbit Face Detector\Rabbit Face Detector\obj\Debug\MVVM\View\MainWindow.g.cs
+C:\Users\mehme\source\repos\Rabbit Face Detector\Rabbit Face Detector\obj\Debug\MVVM\View\MainWindow.baml
